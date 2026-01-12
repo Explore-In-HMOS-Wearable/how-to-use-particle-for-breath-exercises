@@ -6,7 +6,9 @@ This animation is designed to guide users through a calming breathing exercise. 
 
 # Preview
 
-<img src="./images/Animation1.gif" width="25%"/>
+<div>
+<img src="./screenshots/Animation1.gif" width="25%"/>
+</div>
 
 # Use Cases
 
@@ -18,7 +20,7 @@ Users follow the rhythmic expansion and contraction of particles, which mirror i
 - **Frameworks**: HarmonyOS SDK 5.0.2(14)
 - **Tools**: DevEco Studio Version 5.1.0.842
 
-# Project Directory
+# Directory Structure
 
    ```
    entry/src/main/ets/

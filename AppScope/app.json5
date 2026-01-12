@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.animation",
+    "bundleName": "com.hmosdemos.wearable.how_to_use_particle_for_breath_exercises",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

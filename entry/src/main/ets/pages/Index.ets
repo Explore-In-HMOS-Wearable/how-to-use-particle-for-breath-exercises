@@ -1,8 +1,8 @@
 @Entry
 @Component
 struct Index {
-  @State isRedPhase: boolean = true;
-  @State countdown: number = 6;
+  isRedPhase: boolean = true;
+  countdown: number = 6;
 
   aboutToAppear() {
     this.startCountdown();
@@ -35,7 +35,7 @@ struct Index {
               particle: {
                 type: ParticleType.POINT,
                 config: {
-                  radius: 1,
+                  radius: 1
                 },
                 count: 1000,
                 lifetime: -1,
@@ -56,7 +56,7 @@ struct Index {
                     startMillis: 0,
                     endMillis: 2500,
                     curve: this.isRedPhase ? Curve.EaseOut : Curve.EaseIn
-                  },
+                  }
                 ]
               }
             },
@@ -72,7 +72,7 @@ struct Index {
                 range: [0, 360]
               }
             }
-          },
+          }
         ]
       })
         .width(300)
